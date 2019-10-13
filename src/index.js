@@ -1,24 +1,3 @@
-/*let first = '155';
-let second = '522';
-multiply(first,second);
-
-function multiply(first, second) {
-  
-  let product = 0;
-  let zeros = '';
-
-  for (let j = 0; j < second.length; j++){
-    for(let i = 0; i < second.length - j - 1 ; i++){
-      zeros += '0';
-    }
-    product += first * (second[j] + zeros);
-    zeros = '';
-    alert(product);
-  }
-
-  return `${product}`;
-}*/
-
 module.exports = function multiply(first, second) {
   
   let first_array = first.split('').reverse();
